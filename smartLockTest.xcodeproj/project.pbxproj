@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844C853D295F530200CE8C5F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C853C295F530200CE8C5F /* CustomTableViewCell.swift */; };
+		844C853F2960895E00CE8C5F /* HeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C853E2960895E00CE8C5F /* HeaderTableView.swift */; };
+		844C854329610B7400CE8C5F /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C854229610B7400CE8C5F /* Door.swift */; };
+		844C85452961C92800CE8C5F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C85442961C92800CE8C5F /* GradientView.swift */; };
+		844C858B29625C1C00CE8C5F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C858A29625C1C00CE8C5F /* LoadingView.swift */; };
+		8480CBFF295DE674001D9AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480CBFE295DE674001D9AD3 /* AppDelegate.swift */; };
+		8480CC01295DE674001D9AD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480CC00295DE674001D9AD3 /* SceneDelegate.swift */; };
+		8480CC08295DE675001D9AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8480CC07295DE675001D9AD3 /* Assets.xcassets */; };
+		8480CC0B295DE675001D9AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8480CC09295DE675001D9AD3 /* LaunchScreen.storyboard */; };
+		8480CC16295DFE11001D9AD3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480CC15295DFE11001D9AD3 /* HomeVC.swift */; };
+		8480CC18295DFEEC001D9AD3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480CC17295DFEEC001D9AD3 /* HomeView.swift */; };
+		8480CC1A295DFF4F001D9AD3 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480CC19295DFF4F001D9AD3 /* HomeModel.swift */; };
+		8480CC1C295E0534001D9AD3 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480CC1B295E0534001D9AD3 /* BaseVC.swift */; };
+		AC2C55906C98F9DC989EFFEF /* Pods_smartLockTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C7D9FD086BCC06B290150 /* Pods_smartLockTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D967B3984FD515FF2E80935 /* Pods-smartLockTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartLockTest.release.xcconfig"; path = "Target Support Files/Pods-smartLockTest/Pods-smartLockTest.release.xcconfig"; sourceTree = "<group>"; };
+		844C853C295F530200CE8C5F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		844C853E2960895E00CE8C5F /* HeaderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableView.swift; sourceTree = "<group>"; };
+		844C854229610B7400CE8C5F /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		844C85442961C92800CE8C5F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		844C858A29625C1C00CE8C5F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		8480CBFB295DE674001D9AD3 /* smartLockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartLockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8480CBFE295DE674001D9AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8480CC00295DE674001D9AD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8480CC07295DE675001D9AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8480CC0A295DE675001D9AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8480CC0C295DE675001D9AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8480CC15295DFE11001D9AD3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8480CC17295DFEEC001D9AD3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8480CC19295DFF4F001D9AD3 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		8480CC1B295E0534001D9AD3 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		AAE660BE30C2229CC6435238 /* Pods-smartLockTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartLockTest.debug.xcconfig"; path = "Target Support Files/Pods-smartLockTest/Pods-smartLockTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FE9C7D9FD086BCC06B290150 /* Pods_smartLockTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartLockTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8480CBF8295DE674001D9AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C55906C98F9DC989EFFEF /* Pods_smartLockTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36E28BB0E1DBA9150E5C9A4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9C7D9FD086BCC06B290150 /* Pods_smartLockTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80DD5AEAAA4B63ECA88A8BFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAE660BE30C2229CC6435238 /* Pods-smartLockTest.debug.xcconfig */,
+				3D967B3984FD515FF2E80935 /* Pods-smartLockTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8480CBF2295DE674001D9AD3 = {
+			isa = PBXGroup;
+			children = (
+				8480CBFD295DE674001D9AD3 /* smartLockTest */,
+				8480CBFC295DE674001D9AD3 /* Products */,
+				80DD5AEAAA4B63ECA88A8BFA /* Pods */,
+				36E28BB0E1DBA9150E5C9A4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8480CBFC295DE674001D9AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8480CBFB295DE674001D9AD3 /* smartLockTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8480CBFD295DE674001D9AD3 /* smartLockTest */ = {
+			isa = PBXGroup;
+			children = (
+				8480CC1E295E62F7001D9AD3 /* Application */,
+				8480CC14295DE742001D9AD3 /* Controller */,
+				8480CC13295DE738001D9AD3 /* View */,
+				8480CC12295DE72A001D9AD3 /* Model */,
+				8480CC0C295DE675001D9AD3 /* Info.plist */,
+				8480CC1D295E629D001D9AD3 /* Resources */,
+			);
+			path = smartLockTest;
+			sourceTree = "<group>";
+		};
+		8480CC12295DE72A001D9AD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8480CC19295DFF4F001D9AD3 /* HomeModel.swift */,
+				844C854229610B7400CE8C5F /* Door.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8480CC13295DE738001D9AD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				844C858A29625C1C00CE8C5F /* LoadingView.swift */,
+				844C85442961C92800CE8C5F /* GradientView.swift */,
+				844C853E2960895E00CE8C5F /* HeaderTableView.swift */,
+				844C853C295F530200CE8C5F /* CustomTableViewCell.swift */,
+				8480CC17295DFEEC001D9AD3 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8480CC14295DE742001D9AD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8480CC1B295E0534001D9AD3 /* BaseVC.swift */,
+				8480CC15295DFE11001D9AD3 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8480CC1D295E629D001D9AD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8480CC07295DE675001D9AD3 /* Assets.xcassets */,
+				8480CC09295DE675001D9AD3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8480CC1E295E62F7001D9AD3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8480CBFE295DE674001D9AD3 /* AppDelegate.swift */,
+				8480CC00295DE674001D9AD3 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8480CBFA295DE674001D9AD3 /* smartLockTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8480CC0F295DE675001D9AD3 /* Build configuration list for PBXNativeTarget "smartLockTest" */;
+			buildPhases = (
+				D5DCCFD7090D8857DD48AAAF /* [CP] Check Pods Manifest.lock */,
+				8480CBF7295DE674001D9AD3 /* Sources */,
+				8480CBF8295DE674001D9AD3 /* Frameworks */,
+				8480CBF9295DE674001D9AD3 /* Resources */,
+				809862D46E6CB1B7E7DA72D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartLockTest;
+			productName = smartLockTest;
+			productReference = 8480CBFB295DE674001D9AD3 /* smartLockTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8480CBF3295DE674001D9AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8480CBFA295DE674001D9AD3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8480CBF6295DE674001D9AD3 /* Build configuration list for PBXProject "smartLockTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8480CBF2295DE674001D9AD3;
+			productRefGroup = 8480CBFC295DE674001D9AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8480CBFA295DE674001D9AD3 /* smartLockTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8480CBF9295DE674001D9AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480CC0B295DE675001D9AD3 /* LaunchScreen.storyboard in Resources */,
+				8480CC08295DE675001D9AD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		809862D46E6CB1B7E7DA72D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartLockTest/Pods-smartLockTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartLockTest/Pods-smartLockTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartLockTest/Pods-smartLockTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DCCFD7090D8857DD48AAAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartLockTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8480CBF7295DE674001D9AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480CC16295DFE11001D9AD3 /* HomeVC.swift in Sources */,
+				8480CC1A295DFF4F001D9AD3 /* HomeModel.swift in Sources */,
+				844C85452961C92800CE8C5F /* GradientView.swift in Sources */,
+				844C858B29625C1C00CE8C5F /* LoadingView.swift in Sources */,
+				8480CBFF295DE674001D9AD3 /* AppDelegate.swift in Sources */,
+				844C854329610B7400CE8C5F /* Door.swift in Sources */,
+				844C853D295F530200CE8C5F /* CustomTableViewCell.swift in Sources */,
+				844C853F2960895E00CE8C5F /* HeaderTableView.swift in Sources */,
+				8480CC18295DFEEC001D9AD3 /* HomeView.swift in Sources */,
+				8480CC1C295E0534001D9AD3 /* BaseVC.swift in Sources */,
+				8480CC01295DE674001D9AD3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8480CC09295DE675001D9AD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8480CC0A295DE675001D9AD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8480CC0D295DE675001D9AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8480CC0E295DE675001D9AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8480CC10295DE675001D9AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE660BE30C2229CC6435238 /* Pods-smartLockTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98XHUX3GU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smartLockTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-gmail.semyzhenko.julia.smartLockTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8480CC11295DE675001D9AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D967B3984FD515FF2E80935 /* Pods-smartLockTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98XHUX3GU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smartLockTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-gmail.semyzhenko.julia.smartLockTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8480CBF6295DE674001D9AD3 /* Build configuration list for PBXProject "smartLockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480CC0D295DE675001D9AD3 /* Debug */,
+				8480CC0E295DE675001D9AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8480CC0F295DE675001D9AD3 /* Build configuration list for PBXNativeTarget "smartLockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480CC10295DE675001D9AD3 /* Debug */,
+				8480CC11295DE675001D9AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8480CBF3295DE674001D9AD3 /* Project object */;
+}
